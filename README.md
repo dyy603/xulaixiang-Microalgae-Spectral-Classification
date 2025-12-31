@@ -47,3 +47,25 @@ Use the `train1.py` script for model training，after changing the path:
 ```
 python MLSA_train.py
 ```
+# Training Parameter Description
+During the training process, model weights will be automatically saved. After training, the model performance will be evaluated on the test set.
+| Initial learning rate | Epoch| Batch size | 
+|:------|:----:|-------:|
+|0.0001 | 300  | 64   |  
+# Performance Evaluation
+After the training is completed, the model will be evaluated on the test set, and key metrics such as accuracy will be output.
+# References and contact information
+The paper is in the submission stage and will update the BiBTeX citation format after its official publication. Currently, it can be temporarily cited:
+```
+@article{tssc_pea_disease,  
+  title={ANMM: An Efficient Deep Learning model for Microalgae Spectral Classification},  
+  author={[Author's name, to be added when published]},  
+  journal={[Journal name, to be supplemented after acceptance]},  
+  year={2025},  
+  note={Manuscript submitted for publication}  
+}  
+```
+# Contact Information
+If you encounter code running issues or academic exchange needs, please contact:  
+Email:dongyanyanhuuc@yeah.net  
+GitHub Issue：Submit an issue directly in this warehouse
